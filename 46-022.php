@@ -7,7 +7,7 @@
 <body>
 登録しました<br>
 氏名:<?php echo htmlspecialchars($name, ENT_COMPAT, 'UTF-8'); ?><br>
-メール:<?php echo htmlspecialchars($email, ENT_COMPAT, 'UTF-8'); ?><br>
+メール:<?php echo htmlspecialchars($mail, ENT_COMPAT, 'UTF-8'); ?><br>
 </body>
 </html>
 
