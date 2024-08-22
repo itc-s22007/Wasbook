@@ -6,3 +6,4 @@
     echo htmlspecialchars($color, ENT_COMPAT, 'UTF-8'), ' ';
   }
   echo "です";
+?>

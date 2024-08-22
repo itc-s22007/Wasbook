@@ -1,0 +1,4 @@
+<?php
+  reguire '4e-012.php';
+  $logger = new Logger('test.log');
+  $logger->add('sample log');
